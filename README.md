@@ -4,6 +4,7 @@ MinecraftBE ScriptAPI Typescript project template
 
 ## Usage
 
++ Run `npm i` to install packages
 + Edit `behavior_pack/manifest.json`
 + Edit `package.json`
 + Change `behavior_pack/pack_icon.png`
