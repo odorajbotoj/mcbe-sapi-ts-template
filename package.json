@@ -1,6 +1,6 @@
 {
   "name": "mcbe-sapi-ts-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MinecraftBE ScriptAPI Typescript project template",
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   "devDependencies": {
     "archiver": "^7.0.1",
     "rimraf": "^5.0.7",
-    "typescript": "^5.4.5"
+    "typescript": "^5.5.2"
   },
   "dependencies": {
     "@minecraft/common": "^1.2.0",
@@ -36,6 +36,6 @@
     "@minecraft/server-gametest": "^1.0.0-beta.1.20.80-stable",
     "@minecraft/server-net": "^1.0.0-beta.11940b24",
     "@minecraft/server-ui": "^1.1.0",
-    "@minecraft/vanilla-data": "^1.21.0"
+    "@minecraft/vanilla-data": "^1.21.1"
   }
 }
