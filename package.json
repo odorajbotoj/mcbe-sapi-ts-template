@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/odorajbotoj/mcbe-sapi-ts-template#readme",
   "scripts": {
-    "build": "tsc",
+    "build": "node tools/build.js",
     "clean": "node tools/clean.js",
     "pack": "npm run clean && npm run build && node tools/pack.js",
     "cleanLocalDeploy": "npm run clean && node tools/cleanLocalDeploy.js",
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "archiver": "^7.0.1",
+    "esbuild": "^0.22.0",
     "rimraf": "^5.0.7",
     "typescript": "^5.5.2"
   },
