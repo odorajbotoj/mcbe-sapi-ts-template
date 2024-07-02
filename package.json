@@ -14,10 +14,12 @@
   "homepage": "https://github.com/odorajbotoj/mcbe-sapi-ts-template#readme",
   "scripts": {
     "build": "node tools/build.js",
+    "buildDev": "node tools/buildDev.js",
     "clean": "node tools/clean.js",
     "pack": "npm run clean && npm run build && node tools/pack.js",
     "cleanLocalDeploy": "npm run clean && node tools/cleanLocalDeploy.js",
     "localDeploy": "npm run clean && npm run cleanLocalDeploy && npm run build && node tools/localDeploy.js",
+    "localDeployDev": "npm run clean && npm run cleanLocalDeploy && npm run buildDev && node tools/localDeploy.js",
     "enableMCLoopback": "CheckNetIsolation.exe LoopbackExempt -a -p=S-1-15-2-1958404141-86561845-1752920682-3514627264-368642714-62675701-733520436",
     "enableMCPreviewLoopback": "CheckNetIsolation.exe LoopbackExempt -a -p=S-1-15-2-424268864-5579737-879501358-346833251-474568803-887069379-4040235476"
   },

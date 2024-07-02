@@ -13,5 +13,5 @@ require("esbuild").buildSync({
         "@minecraft/server",
         "@minecraft/server-editor"
     ],
-    minify: true
+    sourcemap: "inline"
 });
